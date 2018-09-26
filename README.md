@@ -26,6 +26,8 @@ TTL with refresh. You `schedule` refreshes to take place and store things under 
 
 Because we wanted a way to be able to retrieve things in the background rather than have a user take the penalty of retrieving the item when the cache expires.
 
+Is Neil the greatest?
+
 ## License
 
 Copyright © 2014 Neil Prosser
