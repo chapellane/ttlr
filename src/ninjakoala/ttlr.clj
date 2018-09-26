@@ -24,6 +24,7 @@
       (error e "Failure while refreshing" name))))
 
 (defn refresh
+  "Refreshes stuff innit"
   [name]
   (when-let [item (get-item name)]
     ((:refresh-fn item))))
