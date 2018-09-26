@@ -30,6 +30,7 @@
     ((:refresh-fn item))))
 
 (defn state
+  "Returning state of item"
   [name]
   (when-let [item (get-item name)]
     @(:state item)))
